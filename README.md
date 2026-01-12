@@ -3,4 +3,5 @@ Bloch simulation including relaxation and Cauchy-distributed static off-resonanc
 Simulates slice-selective excitation with Cauchy-distributed static off-resonance (T2′) and compares full simulation vs hard-pulse approximation.
 
 ## Installation
+```bash
 pip install -r requirements.txt
