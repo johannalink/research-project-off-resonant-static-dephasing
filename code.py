@@ -292,6 +292,7 @@ Mxy_nr, Mz_nr = simulation_slice_selection(
 )
 
 # --- hard pulse: take complex state at pulse end, back-rotate phase to j0, then relax/precess from j0
+# j0 is chosen as the pulse maximum, as the pulse is symmetric
 
 # indices
 j0 = int(np.argmax(np.abs(w1)))     # instantaneous pulse time
